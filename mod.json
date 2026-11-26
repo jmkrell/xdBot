@@ -7,9 +7,9 @@
 	},
 	"version": "2.4.1",
 	"id": "zilko.xdbot",
-	"name": "xdBot",
+	"name": "xdBotIOS",
 	"developer": "Zilko",
-	"description": "Best Free Bot fr",
+	"description": "Ported To IOS by Zrelie Best Free Bot fr",
 	"dependencies": [
 		{
 			"id": "geode.custom-keybinds",
