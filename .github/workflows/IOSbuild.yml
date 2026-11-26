@@ -1,4 +1,4 @@
-name: Build Geode Mod
+name: Build IOS Geode Mod
 
 on:
   workflow_dispatch:
@@ -12,17 +12,9 @@ jobs:
       fail-fast: false
       matrix:
         config:
-        - name: Windows
-          os: windows-latest
-          build-type: RelWithDebInfo
-
-        - name: Android32
-          os: ubuntu-latest
-          target: Android32
-
-        - name: Android64
-          os: ubuntu-latest
-          target: Android64
+        - name: iOS
+          os: macos-latest
+          target: iOS
 
     name: ${{ matrix.config.name }}
     runs-on: ${{ matrix.config.os }}
